@@ -5,7 +5,7 @@ exports.getHost = function() {
 
 exports.getCompany = function() {
 	// TODO Return the SuccessFactors Company
-	return null
+	return null;
 };
 
 exports.getUser = function() {
