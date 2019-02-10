@@ -1,19 +1,17 @@
+var configurations = require('core/v3/configurations');
+
 exports.getHost = function() {
-	// TODO Return the SuccessFactors Host
-	return null;
+	return configurations.get("SUCCESSFACTORS_HOST");
 };
 
 exports.getCompany = function() {
-	// TODO Return the SuccessFactors Company
-	return null;
+	return configurations.get("SUCCESSFACTORS_COMPANY");
 };
 
 exports.getUser = function() {
-	// TODO Return the SuccessFactors User
-	return null;
+	return configurations.get("SUCCESSFACTORS_USER");
 };
 
 exports.getPassword = function() {
-	// TODO Return the SuccessFactors Password
-	return null;
+	return configurations.get("SUCCESSFACTORS_PASSWORD");
 };
